@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;300&display=swap');
+
+body{
+    margin: 0;
+}
+
+:root{
+    --lightBlue: hsl(223, 100%, 88%);
+    --darkBlue: hsl(209, 33%, 12%);
+}
+.cabezera{
+    margin-top: 50px;
+    width: 100%;
+
+}
+
+
+.logoPing{
+    display: block;
+    margin: auto;
+}
+.subscribe{
+    
+    font-family: 'Libre Franklin',sans-serif;
+    text-align: center;
+}   
+.welcome{
+    font-size: 1.875rem;
+}
+.subs{
+    font-size: 0.9375rem;
+}
+.input{
+    font-family: 'Libre Franklin';
+    display: block;
+    margin: auto;
+    border: 1px solid var(--lightBlue);
+    border-radius: 30px;
+    width: 15.9375rem;
+    height: 0.125rem;
+    outline: none;
+    padding: 1.25rem;
+    
+}
+::placeholder { color: var(--lightBlue); }
+#error{
+    font-family: 'Libre Franklin';
+    text-align: center;
+    color: red;
+    font-size: 15px;
+}
+
+.notify{
+    font-family: 'Libre Franklin';
+    display: block;
+    margin: 10px auto;
+    border: 1px solid var(--lightBlue);
+    border-radius: 1.875rem;
+    width: 18.125rem;
+    height: 2.5rem;
+    color: white;
+    outline: none;
+    background-color: #4D7BF3;
+    transition: 0.2s;
+
+}
+.notify a{
+    font-family: 'Libre Franklin';
+    text-decoration: none;
+    color: white;
+}
+.notify:hover{
+    box-shadow: 0px 5px 5px var(--lightBlue);
+}
+.slack{
+    display: block;
+    margin: 50px auto;
+    width: 85%;
+}
+.copyrigth{
+    font-size: 12px;
+    font-family: 'Libre Franklin';
+    text-align: center;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section a{
+    text-decoration: none;
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    border: 0.5px solid;
+    color: #4D7BF3;
+    margin:  0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.9s;
+
+}
+
+.section a:hover{
+    background-color: #4D7BF3;
+    color: white;
+}
