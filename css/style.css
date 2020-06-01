@@ -9,7 +9,7 @@ body{
     --darkBlue: hsl(209, 33%, 12%);
 }
 .cabezera{
-    margin-top: 50px;
+    margin-top: 77px;
     width: 100%;
 
 }
@@ -64,6 +64,7 @@ body{
     transition: 0.2s;
 
 }
+
 .notify a{
     font-family: 'Libre Franklin';
     text-decoration: none;
@@ -106,4 +107,21 @@ body{
 .section a:hover{
     background-color: #4D7BF3;
     color: white;
+}
+
+
+@media screen and (min-width:1990px){
+    .email{
+        justify-content: cete;
+    }
+    .input{
+        display: block;
+        float: left;
+    }
+    .notify{
+        display: block;
+        float: left;
+        margin: 0 auto;
+      
+    }
 }
