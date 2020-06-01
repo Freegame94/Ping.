@@ -13,11 +13,12 @@ body{
     width: 100%;
 
 }
-
-
 .logoPing{
     display: block;
     margin: auto;
+}
+.error{
+    font-family: 'Libre Franklin',sans-serif;
 }
 .subscribe{
     
@@ -107,21 +108,4 @@ body{
 .section a:hover{
     background-color: #4D7BF3;
     color: white;
-}
-
-
-@media screen and (min-width:1990px){
-    .email{
-        justify-content: cete;
-    }
-    .input{
-        display: block;
-        float: left;
-    }
-    .notify{
-        display: block;
-        float: left;
-        margin: 0 auto;
-      
-    }
 }

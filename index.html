@@ -19,11 +19,9 @@
         </section>
         
         <section class="email" >
-            <form id="form" class="botones" >
-                <input  id="email" type="email" class="input" placeholder="Your email address..">
+                <input  id="email" type="email" class="input"  placeholder="Your email address..">
                 <div id="error"></div>
-                <button type="submit" class="notify"><a href="#">Notify Me</a></button>
-            </form>  
+                <button type="submit" class="notify"><a  onclick="validarCorreo(document.getElementById('email').value)" >Notify Me</a></button>
         </section>
 
         <section>
