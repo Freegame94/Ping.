@@ -8,9 +8,8 @@ function validarCorreo(email){
 
     if(expReg.test(email)){
         console.log(correo) //Obteniendo el correo Ingresado.
-    }else{
+    }else{  
         ul.style.border = "1px solid red"; // Cambiando el color del border del input.
         div.appendChild(text);
-        
     }
 }
